@@ -1,0 +1,63 @@
+
+Minutes of Meeting
+
+Combine excel sheet both the things with formatting inside python.
+
+Project lead (lucas)
+
+
+Tasks for Monday:-
+
+1) Review the Whole code
+2) Optimizing the code
+3) come up with 10 specific questions also with their solutions
+3) ?Wants a generic code
+4) ?side project complete
+
+Database name: newpomtest
+Campaign ---
+
+Draft with excel sheet
+Api call get campaign detail from
+Api call campaign teacher
+
+Side project
+
+1) dummy structure of campign api for getting campaign summary
+2) Api calls for getting camp summary
+3) ?Api call for getting camp teacher
+4) ?combine excel sheet for both the call
+
+Side project pom application
+
+5) generize the data transforms process (process/pop/transform extract and load file ) 
+6) unit tests .. review and rewrite
+7) ?db schema need to sync with shri and sai
+8) ?each table you hit add delete method (ref integity etc that could get messy )
+primary id of the 4. 35
+9) faster the code as much possible.
+10) ?transform the data into the dimensions and facts.
+11) ?monday question with ques new ideas etc
+12) ?no need to work on loading speed.. they would do it
+13) ?db name - newpomtest
+14) ?test environment is postgre nd cloud environment is R. ( syntax will be same but except for Var on extract, oracle  )
+
+1) camp summary (excel sheet -camp id is passed if there is any it would return camp ck otherwise create one - genericise it for diff applications )
+Pytest for unit testing.
+
+Api call pull in the data from the summary and it will present that on the first tab of excel sheet and sec tab will have api details.
+
+Create a copy of the project and do changes in that
+
+2) ? side project
+
+Oracle query is not working given by kelly
+More detail on campaing summary and campaign excel 
+
+
+
+Summary
+So finally 3 things to be done, based on priority which are:
+1) Campaign Summary
+2) Side project
+3) Excel file
